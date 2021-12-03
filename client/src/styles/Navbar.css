@@ -1,0 +1,64 @@
+.navbar-container {
+    height: 100%;
+    width: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.nav-menu-btn {
+    background-color: rgb(232, 65, 24);
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    height: 50%;
+    margin-top: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-container ul {
+    height: 100%;
+}
+
+.navbar-container li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i:hover+p {
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+
+.nav-download i {
+    color: white;
+}
+
+.nav-center-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-center-column p, .nav-download p {
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    font-size: .7em;
+}
+
+.active {
+    color: rgb(232, 65, 24);
+}
+

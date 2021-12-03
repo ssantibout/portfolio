@@ -1,0 +1,8 @@
+.image-container {
+    height: 105%;
+    width: 40%;
+    background-image :url('../static/me_profile_pic.png');
+    background-size: cover;
+    background-position: bottom;
+    filter: brightness(.5)
+}
